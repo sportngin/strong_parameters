@@ -85,6 +85,19 @@ By default parameter keys that are not explicitly permitted will be logged in th
 
 Additionally, this behaviour can be changed by changing the `config.action_controller.action_on_unpermitted_parameters` property in your environment files. If set to `:log` the unpermitted attributes will be logged, if set to `:raise` an exception will be raised.
 
+## Partial insclusion
+
+If you won't affect all controllers inherited from `ActionController::Base`,
+you can require this gem like this and include it manually
+
+```ruby
+gem 'strong_parameters', require: ['strong_parameters/requires']
+
+class SomeController < ActionController::Base
+  include ActionController::StrongParameters
+  ...
+```
+
 ## Use Outside of Controllers
 
 While Strong Parameters will enforce permitted and required values in your application controllers, keep in mind

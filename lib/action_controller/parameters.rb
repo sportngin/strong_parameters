@@ -265,4 +265,3 @@ module ActionController
   end
 end
 
-ActiveSupport.on_load(:action_controller) { include ActionController::StrongParameters }
