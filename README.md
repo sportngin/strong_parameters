@@ -87,7 +87,7 @@ Additionally, this behaviour can be changed by changing the `config.action_contr
 
 ## Partial insclusion
 
-If you won't affect all controllers inherited from `ActionController::Base`,
+If you don't want to affect all controllers inherited from `ActionController::Base`,
 you can require this gem like this and include it manually
 
 ```ruby
