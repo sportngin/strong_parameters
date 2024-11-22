@@ -1,3 +1,4 @@
+
 [![Travis CI](https://secure.travis-ci.org/sportngin/strong_parameters.png)](http://travis-ci.org/sportngin/strong_parameters) [![Gem Version](https://badge.fury.io/rb/strong_parameters.png)](http://badge.fury.io/rb/strong_parameters)
 # Strong Parameters
 
